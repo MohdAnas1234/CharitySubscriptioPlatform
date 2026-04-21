@@ -19,7 +19,7 @@ mongoose
   .catch((error) => console.log(error))
 
 app.get('/', (req, res) => {
-  res.send('API Running Successfully')
+  res.send('API is running...')
 })
 
 app.use('/api/auth', authRoutes)
